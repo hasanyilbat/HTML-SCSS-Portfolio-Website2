@@ -1,0 +1,27 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
+  background-color: $bg-color;
+  color: $text-color;
+  padding: 0 0.7rem;
+  border-bottom: 5px solid $diffText-color;
+  ul {
+    list-style-type: none;
+    li {
+      display: inline-block;
+      &:first-child {
+        color: $diffText-color;
+      }
+      a {
+        text-decoration: none;
+        color: $text-color;
+        padding: 0 0.7rem;
+      }
+    }
+    span {
+      color: $diffText-color;
+    }
+  }
+}

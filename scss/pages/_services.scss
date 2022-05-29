@@ -1,0 +1,70 @@
+.container {
+  padding: 0rem 2rem;
+  .header {
+    padding: 1rem 0rem;
+  }
+  .serv-form {
+    display: flex;
+  }
+}
+
+.service-cont {
+  width: 70vw;
+  margin-bottom: 6.95rem;
+  .services {
+    // padding: 0rem 2rem;
+
+    h3 {
+      padding-bottom: 1rem;
+    }
+  }
+
+  .service1 {
+    padding: 2rem 1rem;
+    background-color: rgb(219, 212, 212);
+    margin-bottom: 0.5rem;
+    p {
+      &:nth-child(3) {
+        margin-top: 1rem;
+      }
+    }
+  }
+}
+
+.form {
+  background-color: $bg-color;
+  width: 30vw;
+  height: 39vh;
+  padding: 1rem;
+  color: $text-color;
+  margin-left: 3rem;
+  label {
+    display: block;
+    margin: 0.3rem 0rem;
+  }
+  h3 {
+    margin: 1rem 0rem;
+  }
+  input {
+    width: 95%;
+    height: 2rem;
+  }
+  textarea {
+    width: 95%;
+    resize: none;
+    height: 5rem;
+  }
+  .btn {
+    background-color: $secondary-color;
+    display: block;
+    width: 4rem;
+    height: 2rem;
+    margin-top: 1rem;
+    color: $text-color;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 0rem 1rem;
+    display: flex;
+    justify-content: center;
+  }
+}
