@@ -7,7 +7,7 @@
 
 .info {
   height: 25vh;
-  background-image: url(../../img/showcase.jpg);
+  background-image: url(../img/showcase.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
